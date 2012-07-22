@@ -10,7 +10,7 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/../include
 LOCAL_SRC_FILES:= \
 	SecCamera.cpp SecCameraHWInterface.cpp
 
-LOCAL_SHARED_LIBRARIES:= libutils libcutils libbinder liblog libcamera_client libhardware
+# LOCAL_SHARED_LIBRARIES:= libutils libcutils libbinder liblog libcamera_client libhardware
 
 ifeq ($(TARGET_SOC), exynos4210)
 LOCAL_SHARED_LIBRARIES += libs5pjpeg
